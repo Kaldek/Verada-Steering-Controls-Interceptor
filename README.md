@@ -2,7 +2,7 @@
 Mitsubishi Verada/Diamante steering wheel radio control interceptor for modern head units.
 
 ## Project Overview
-The Mitsubishi Verada/Diamante from the late 1990s through to the early 2000s uses steering wheel radio controls which are massively over engineered and don't work with moder head units without some form of translation circuit.  Rather than buy one, I decided to reverse engineer how the system works and build one.
+The Mitsubishi Verada/Diamante from the late 1990s through to the early 2000s uses steering wheel radio controls which are massively over engineered and don't work with modern head units without some form of translation circuit.  Rather than buy one, I decided to reverse engineer how the system works and build one.
 
 ### Issues with the Mitsubishi steering wheel controls
 
