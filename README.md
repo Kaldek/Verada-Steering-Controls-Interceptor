@@ -16,3 +16,5 @@ The signal wire from the steering wheel is shared with the signal used by the cr
 
 ### Solution Summary
 The solution which I have created here uses An Arduino to connect to the signal wire of the radio control module in the steering wheel.  Pulses are detected based on the reverse engineered timings of the pulse frequencies to decode the signals, of which there are only six unique varations, likely based purely on the button matrix decoding which the PD6134 performs.
+
+After the signals are decoded, these are mapped to different resistance values controlled by a Microchip Technology MCP4151 digital potentiometer.  The MCP4151 P0B and P0W pins are connected to the steering remote wires of the head unit to be driven by the steering wheel buttons, and the head unit is then programmed.
