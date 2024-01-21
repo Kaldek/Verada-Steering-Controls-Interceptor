@@ -49,7 +49,7 @@ const int lookupTableSize = sizeof(lookupTable) / sizeof(SequenceMapping);
 
 
 void setup() {
-    Serial.begin(9600);
+    // Serial.begin(9600);
     pinMode(PULSE_PIN, INPUT_PULLUP);
     pot.writeValue(0); // turn the pot off
     resetSequence();
@@ -106,8 +106,8 @@ void resetSequence() {
 void printSequence() {
     String sequenceName = translateSequence();
     setResistanceForSequence(sequenceName);
-    Serial.print("Button Pressed: ");
-    Serial.println(sequenceName);
+    // Serial.print("Button Pressed: ");
+    // Serial.println(sequenceName);
     lastActivityTime = micros(); // Update last activity time after processing a sequence
 }
 
