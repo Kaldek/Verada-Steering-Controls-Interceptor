@@ -23,4 +23,4 @@ After the signals are decoded, these are mapped to different resistance values c
 This design currently uses INPUT_PULLUP for the steering buttons on the Arduino; this will likely not work when the signal wire is shared with the cruise control unit without changing the pulse detection pin mode and using a level shifter to ensure that the Arduino is not exposed to 12+ volts.
 
 ## Schematic
-![Overview schematic](https://github.com/Kaldek/Verada-Steering-Controls-Interceptor/blob/main/Schematic-2.png)https://github.com/Kaldek/Verada-Steering-Controls-Interceptor/blob/main/Schematic-2.png
+![Overview schematic](https://github.com/Kaldek/Verada-Steering-Controls-Interceptor/blob/main/Schematic-3.png)https://github.com/Kaldek/Verada-Steering-Controls-Interceptor/blob/main/Schematic-3.png
